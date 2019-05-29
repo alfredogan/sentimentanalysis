@@ -8,9 +8,9 @@ metadata:
 spec:
   containers:
   - name: gettsdata
-    image: alfredoacr.azurecr.io/timeseries2
+    image: alfredoacr.azurecr.io/timeseries
     tty: true
 
   - name: pushtsdata
-    image: alfredoacr.azurecr.io/timeseries2
+    image: alfredoacr.azurecr.io/timeseries
     tty: true
