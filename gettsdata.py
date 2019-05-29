@@ -14,10 +14,10 @@ def main(argv):
 
 # Pre-define day range and stock symbol in case user don't provide them
  rang_e = 365
- yea_r = 2016
+ yea_r = 2018
  mont_h = 1
  da_y = 1
- TickerSymbol = 'TWTR'
+ TickerSymbol = 'MET'
 
  try:
    opts, args = getopt.getopt(argv,"i:r:y:m:d:",["HELP=","iSym=","RANGE=","MONTH=","DATE=","DAY="])
