@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: finservpodv5
+  name: finservpodv6
   labels:
      app: tsdata
 spec:
